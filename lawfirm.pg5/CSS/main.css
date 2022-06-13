@@ -1,0 +1,163 @@
+.body{ background-image: url("../images/background.jpg");
+/*background image for page*/
+}   
+
+.container{
+    /*Top of page including BTN, login, logo*/
+    background-color: white;
+    height: 100%;
+    width: 1100px;
+    margin: auto;
+    padding-right:40px;
+
+}
+
+.header{
+    font-family: arial, sans-serif;
+}
+
+.login{
+    /*Login/register justification*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    /*login/register box*/
+    margin-right: 0px;
+    font-size:16px;
+    padding:10px 24px;
+    color:white;
+    background-color: #aaaa;
+    border:none;
+    border-radius:5px; 
+}
+
+.btn a{
+    text-decoration:none;
+    color: white;
+
+}
+
+
+.logo{
+    /* margin between 318x76 and nav bar*/
+    width:400px;
+    margin-bottom: 40px;
+    padding-top: 0px;
+    margin-left:40px;
+}
+
+.nav_bar {
+    /*top navigation bar border and alignment*/
+    display: flex;
+    list-style-type: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top:15px;
+    padding-bottom:15px;
+    gap:30px;
+    margin-top:0px;
+    justify-content:center;
+    margin-left:40px;
+}
+
+.nav_bar > li{
+    border-right:1px solid #d1d1d1;
+    padding-right:20px;
+}
+
+.nav_bar a{
+    text-decoration:none;
+    color:black;
+}
+
+.main_body{
+    display: flex;
+    flex-direction:row;
+    padding-left:40px;
+    padding-top:40px;
+    justify-content:space-between;
+}
+
+.col1{
+    background-image: url(../images/side_sub.jpg);
+    height:100%;
+    width:30%;
+    background-size:cover;
+
+}
+
+.col1 > h1{
+    color:white;
+    padding-bottom:10px;
+    border-bottom:2px solid;
+    margin-left:20px;
+    margin-right:20px;
+    font-weight:lighter;
+}
+
+.wedo_list{
+    list-style-type:none;
+    color:white;
+    padding-left:20px;
+}
+
+.wedo_list> li{
+    padding-bottom:20px;
+    
+}
+
+.col1 > img{
+    padding-left: 5px;
+    padding-right: 5px;
+    width:300px;
+    height:150px;
+    padding-top:0px;
+}
+
+.col1 > h3{
+    padding-left:20px;
+    color:white
+}
+
+.col1 >p{
+    color:white;
+    padding-left:20px;
+}
+.middle_txt{
+    list-style-type:none;
+    padding-left:30px;
+    line-height:30px;
+    padding-top: none;
+}
+
+.Botpic{
+    display: center;
+
+}
+.section{
+    justify-content: center;
+}
+
+.centering{
+    padding:5px;
+    margin:10px;
+    height: 120px;
+    width:300px
+   
+}
+
+.footer > ul{
+   display:flex;
+   list-style-type:none;
+   justify-content:space-around;
+   margin-top:70px;
+   margin-left:40px;
+   margin-right:40px;
+   border-top: 2px solid black;
+   line-height:20px;
+   padding-top: 30px;
+   padding-right: 30px;
+   padding-bottom: 10px;
+}
